@@ -1,0 +1,18 @@
+[package]
+name = "grimoire"
+version = "0.1.1"
+edition = "2024"
+description = "Agent-ready CLI for your pattern library"
+
+[[bin]]
+name = "grimoire"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+jmespath = "0.3"
+ratatui = "0.30.0"
