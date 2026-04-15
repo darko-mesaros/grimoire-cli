@@ -2,6 +2,9 @@
 
 Agent-ready CLI for your pattern library. Manages reusable code patterns stored as markdown files with YAML frontmatter.
 
+
+![](/img/screen.png)
+
 ## Install
 
 ```bash
